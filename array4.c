@@ -30,8 +30,8 @@ for(i=0;i<=4;i++)
 	   	
 	  }
 		
-	printf("Maximum = %d",max);
-	printf("Minimum = %d",min);
+	printf("Maximum  = %d",max);
+	printf("Minimum  = %d",min);
 	
 	return 0;
 }
