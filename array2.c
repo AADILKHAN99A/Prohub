@@ -1,15 +1,17 @@
 #include<stdio.h>
 int main()
 {
-	int arr[5], i, sum=0;
+	int arr[5];
+	int i;
+	int sum=0;
 	
 	for(i=0;i<=4;i++)
 	{
-		printf("Enter Number  ");
+		printf("Enter your fav. Number :- ");
 		scanf("%d",&arr[i]);
 		sum=sum+arr[i];
 	}
-	printf("Sum of Array = %d",sum);
+	printf("Sum of Number you entered = %d",sum);
 	
 	return 0;
 }
